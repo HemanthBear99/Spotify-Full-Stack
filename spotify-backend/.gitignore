@@ -1,0 +1,89 @@
+# Ignore compiled files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
+*.beam
+
+# Ignore package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignore virtual environments
+.env
+.venv
+env/
+venv/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore logs and databases
+*.log
+*.sqlite
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore Django's staticfiles and media files
+staticfiles/
+media/
+
+# Ignore Django's secret key
+secret.py
+
+# Ignore any local configuration files
+local_settings.py
+
+# Ignore any generated files
+generated/
+
+# Ignore any backup files
+*.bak
+
+# Ignore any temporary files
+*.tmp
+
+# Ignore any generated documentation
+docs/
+
+# Ignore any generated test coverage reports
+coverage/
+
+# Ignore any generated Docker files
+Dockerfile
+docker-compose.yml
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
